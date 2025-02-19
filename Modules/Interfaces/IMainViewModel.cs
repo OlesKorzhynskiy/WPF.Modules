@@ -1,9 +1,18 @@
-﻿using System.Windows.Input;
+﻿using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace Modules.Interfaces
 {
     public interface IMainViewModel
     {
-        ICommand SaveCommand { get; }
+        ICommand SharedCommand { get; }
+        
+        ICommand SwitchViewCommand { get; }
+        
+        string Title { get; }
+        
+        string SharedData { get; }
+        
+        UserControl CurrentView { get; }
     }
 }

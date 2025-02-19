@@ -2,6 +2,7 @@
 using Modules.Interfaces;
 using Modules.ViewModels;
 using System.Windows;
+using Modules.Views;
 
 namespace Modules;
 
@@ -10,7 +11,7 @@ namespace Modules;
 /// </summary>
 public partial class App : Application
 {
-    private IServiceProvider _serviceProvider;
+    private readonly IServiceProvider _serviceProvider;
 
     public App()
     {

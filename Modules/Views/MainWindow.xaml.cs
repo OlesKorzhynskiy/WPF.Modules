@@ -1,7 +1,7 @@
-﻿using Modules.Interfaces;
-using System.Windows;
+﻿using System.Windows;
+using Modules.Interfaces;
 
-namespace Modules;
+namespace Modules.Views;
 
 /// <summary>
 /// Interaction logic for MainWindow.xaml
